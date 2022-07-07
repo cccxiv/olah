@@ -17,13 +17,6 @@ $ olah -v
 Olah v0.0.2
 ```
 
-Next, you need to generate the initial configuration file by running `olah init` which will create `olah.yaml` inside your current working directory. Example:
-
-```
-$ olah init
-Olah configuration file has been created.
-```
-
 Olah require MySQL database credentials in order to start which will be fetched from your machine environment variable as defined below.
 
 | Key | Required | Description |
@@ -44,16 +37,8 @@ Olah server is ready and available at http://localhost:8470/
 
 ## Command Line Interface
 
-### `olah init`
-
-Initialize and generate Olah configuration file. This will produce `olah.yaml` that will be used to start Olah server. 
-
-By default, if you try to initialize the config again when there is already `olah.yaml` on the directory, it will rename the existing configuration and create the new one. For example:
 
 ```
-$ olah config init
-NOTICE: olah.yaml already exist and renamed to olah.yaml.1656947960
-New Olah configuration file has been created.
 ```
 
 ### `olah start`
