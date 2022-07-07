@@ -1,12 +1,6 @@
-import { program } from "commander";
-import { version } from "../package.json";
+import yargs from "yargs/yargs";
+import { hideBin } from "yargs/helpers";
 
-program
-    .option('-v, --version', 'print Olah version')
-    .parse()
-
-const options = program.opts();
-
-if (options.version) {
-    console.log(version);
-}
+yargs(hideBin(process.argv))
+  .help()
+  .argv

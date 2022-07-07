@@ -37,8 +37,12 @@ Olah server is ready and available at http://localhost:8470/
 
 ## Command Line Interface
 
+### `olah --version`
+Print Olah version. Example:
 
 ```
+$ olah version
+0.0.2
 ```
 
 ### `olah start`
