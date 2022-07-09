@@ -8,7 +8,8 @@
   "scripts": {
     "build": "tsc",
     "local-install": "npm run build && npm install ./ -g",
-    "cli": "ts-node src/cli.ts"
+    "cli": "ts-node src/cli.ts",
+    "format": "prettier --write \"src/**/*.ts\""
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@types/node": "^18.0.3",
     "@types/yargs": "^17.0.10",
+    "prettier": "^2.7.1",
     "ts-node": "^10.8.2",
     "typescript": "^4.7.4"
   }
