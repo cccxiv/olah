@@ -65,8 +65,6 @@ When you are developing Olah with Visual Studio Code (VS Code), it's highly reco
 
 ## License
 
+Copyright (c) Olah Contributors. All rights reserved.
+
 This project is licensed under the [MIT License](LICENSE).
-
-## Copyright
-
-Copyright Olah Contributors.
