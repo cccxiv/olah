@@ -9,7 +9,7 @@
     "build": "tsc",
     "local-install": "npm run build && npm install ./ -g",
     "cli": "ts-node src/cli.ts",
-    "format": "prettier --write \"src/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "eslint . --ext .ts --max-warnings=0"
   },
   "repository": {
