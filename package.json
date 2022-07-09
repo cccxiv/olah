@@ -10,7 +10,8 @@
     "local-install": "npm run build && npm install ./ -g",
     "cli": "ts-node src/cli.ts",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "eslint . --ext .ts --max-warnings=0"
+    "lint": "eslint . --ext .ts --max-warnings=0",
+    "app-dev": "ts-node scripts/app-dev.ts"
   },
   "repository": {
     "type": "git",
