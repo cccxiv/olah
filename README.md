@@ -1,6 +1,8 @@
 # Olah
 
-Olah is created to provide easy-to-use config-based framework to build an internal tools to manage data of MySQL database server of your application.
+⚠️⚠️ WARNING ⚠️⚠️: This project is currently on heavy development and not recommended to be used on your production environment.
+
+Olah is config-based framework to build an internal tools to manage data of MySQL database server of your application. The goal is this project is to save your time building internal tools for specific task so you can focus your time to something that really matter.
 
 ## Getting Started
 
