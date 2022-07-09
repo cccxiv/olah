@@ -19,25 +19,24 @@ Olah v0.0.2
 
 Olah require MySQL database credentials in order to start which will be fetched from your machine environment variable as defined below.
 
-| Key | Required | Description |
-|--|--|--|
-| `OLAH_DB_USER` | Yes | Username of the database user |
-| `OLAH_DB_PASS` | Yes | Password of the database user |
-| `OLAH_DB_NAME` | Yes | Name of the database | 
-| `OLAH_DB_HOST` | Yes | Database host. Default: `localhost` |
-| `OLAH_DB_PORT` | No | Database port. Default: `3306` |
+| Key            | Required | Description                         |
+| -------------- | -------- | ----------------------------------- |
+| `OLAH_DB_USER` | Yes      | Username of the database user       |
+| `OLAH_DB_PASS` | Yes      | Password of the database user       |
+| `OLAH_DB_NAME` | Yes      | Name of the database                |
+| `OLAH_DB_HOST` | Yes      | Database host. Default: `localhost` |
+| `OLAH_DB_PORT` | No       | Database port. Default: `3306`      |
 
-You can set the environment variable on your machine profile or passed directly into `olah start` for this setup. Example:
+There is multiple ways you can set those environment variables. One of them is you can set it via command line by prefixing the `olah start` command. For example:
 
 ```
 $ OLAH_DB_USER=root OLAH_DB_PASS=1234 OLAH_DB_NAME=pet_store olah start
-Starting olah server...
-Olah server is ready and available at http://localhost:8470/
 ```
 
 ## Command Line Interface
 
 ### `olah --version`
+
 Print Olah version. Example:
 
 ```
@@ -54,7 +53,9 @@ Start Olah server.
 ### Visual Studio Code
 
 When you are developing Olah with Visual Studio Code (VS Code), it's highly recommended to install [Prettier VS Code extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) to help you formatting the typescript code easier.
+
 ## Roadmap
+
 - User Authentication
 - Docker support
 - CRUD functionality
@@ -69,4 +70,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## Copyright
 
 Copyright Olah Contributors.
-
