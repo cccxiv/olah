@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/cccxiv/olah#readme",
   "dependencies": {
+    "fastify": "^4.2.0",
     "yargs": "^17.5.1"
   },
   "devDependencies": {
