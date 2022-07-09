@@ -1,22 +1,14 @@
 import { CommandModule } from "yargs";
-import Fastify from "fastify";
+import app from "../app";
 
 const command = "start";
 
 const describe = "Start Olah server";
 
-const handler = async function () {
-  const fastify = Fastify({
-    logger: true,
-  });
-
-  fastify.get("/", function (_, reply) {
-    reply.send({ hello: "world" });
-  });
-
-  fastify.listen({ port: 3000 }, function (err) {
+const handler = () => {
+  app.listen({ port: 3000 }, function (err) {
     if (err) {
-      fastify.log.error(err);
+      console.log(err);
       process.exit(1);
     }
   });

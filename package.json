@@ -23,10 +23,13 @@
   },
   "homepage": "https://github.com/cccxiv/olah#readme",
   "dependencies": {
+    "@fastify/hotwire": "^1.0.1",
     "fastify": "^4.2.0",
+    "mustache": "^4.2.0",
     "yargs": "^17.5.1"
   },
   "devDependencies": {
+    "@types/mustache": "^4.1.3",
     "@types/node": "^18.0.3",
     "@types/yargs": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
