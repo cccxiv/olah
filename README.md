@@ -49,6 +49,11 @@ $ olah version
 
 Start Olah server.
 
+## Developers
+
+### Visual Studio Code
+
+When you are developing Olah with Visual Studio Code (VS Code), it's highly recommended to install [Prettier VS Code extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) to help you formatting the typescript code easier.
 ## Roadmap
 - User Authentication
 - Docker support
