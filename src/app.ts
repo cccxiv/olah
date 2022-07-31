@@ -15,7 +15,11 @@ fastify.get("/", function (_, reply) {
   reply.render("index.html", { hello: "world" });
 });
 
-export default () => {
+export default async (isDev: boolean = false) => {
+  if (isDev) {
+    console.log("Olah running on DEV mode.");
+  }
+
   fastify.listen({ port: 3000 }, function (err) {
     if (err) {
       console.log(err);
